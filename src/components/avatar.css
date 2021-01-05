@@ -1,0 +1,37 @@
+.storybook-avatar {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: small;
+}
+
+.storybook-avatar img {
+  border-radius: 5em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+.storybook-avatar > img {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.storybook-avatar--tiny {
+  width: 20px;
+  height: 20px;
+}
+
+.storybook-avatar--small {
+  width: 50px;
+  height: 50px;
+}
+
+.storybook-avatar--medium {
+  width: 80px;
+  height: 80px;
+}
+
+.storybook-avatar--large {
+  width: 100px;
+  height: 100px;
+}
