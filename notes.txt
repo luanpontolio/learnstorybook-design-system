@@ -1,0 +1,25 @@
+- Estudo feito utilizando Reactjs seguindo tutorial da Invision: https://www.learnstorybook.com/design-systems-for-developers/react/pt/architecture/
+
+- Design system
+  - components de UI não pode ter nenhuma logica de negocio associado
+  a eles.
+- Inventário de components:
+   Regras se o component é utilizado mais de uma vez,
+   ou se o mesmo possui diferentes variações desk/mobile.
+
+- "tokens de design" são variaveis globais de tipografia, cor, margin, grid.
+
+- Ferramentas :
+  - Lib JS:
+    - styled-components: CSS-in-JS;
+    - prop-types: Define properties para react-components;
+    - polished: Lib para escrever styles in JS;
+  - Lib para padrão de codigo:
+    - yarn add --dev prettier;
+
+Storybook
+  📕 Catálogo de componentes de IU
+  📄 Guardar as variações dos componentes como estórias
+  ⚡️  Uso de ferramentas de experiência para o programador tal como o Hot Module Reloading
+  🛠 Suporte de inúmeras camadas de visualização, incluíndo o React
+
